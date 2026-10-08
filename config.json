@@ -1,0 +1,51 @@
+{
+  "app": {
+    "name": "NGO Certificates",
+    "default_locale": "es-ES",
+    "timezone": "Europe/Madrid"
+  },
+  "numeracion": {
+    "prefijo": "CERT",
+    "inicio": 1
+  },
+  "branding": {
+    "color_principal": "#3B468C",
+    "logo_path": "",
+    "logo_filename": ""
+  },
+  "defaults": {
+    "entidad": {
+      "nombre": "",
+      "cif": "",
+      "direccion": "",
+      "telefono": "",
+      "email": "",
+      "web": "",
+      "ciudad": ""
+    },
+    "firmas": {
+      "nombre": "",
+      "cargo": ""
+    },
+    "textoslegales": {
+      "certificadodinero": "",
+      "certificadoespecie": ""
+    },
+    "textos_email": {
+      "firma": "",
+      "dinero": "",
+      "especie": ""
+    }
+  },
+  "features": {
+    "enable_multi_tenant": true,
+    "enable_bulk_queue": true,
+    "enable_branding_upload": true,
+    "validate_spanish_tax_id": true
+  },
+  "storage": {
+    "tmp_out_dir": "backend/tmp_out",
+    "tmp_out_individual_dir": "backend/tmp_out_individual",
+    "branding_dir": "branding"
+  }
+}

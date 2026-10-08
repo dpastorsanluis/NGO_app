@@ -1,0 +1,11 @@
+streamlit
+streamlit-autorefresh
+pandas
+openpyxl
+reportlab
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+argon2-cffi
+anyio
