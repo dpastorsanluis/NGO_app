@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+data/
+queue/
+scripts/
+backend/tmp_out/
+backend/tmp_out_individual/
+branding/
+iniciar.txt
+estado_sistema.json
+*.sqlite3
